@@ -14,6 +14,8 @@
 		9E923B2E20CC454300F48E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E923B2C20CC454300F48E90 /* LaunchScreen.storyboard */; };
 		9E923B3920CC454400F48E90 /* ilGiornaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923B3820CC454400F48E90 /* ilGiornaleTests.swift */; };
 		9E923B4420CC454400F48E90 /* ilGiornaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923B4320CC454400F48E90 /* ilGiornaleUITests.swift */; };
+		9E923B5320CC49D200F48E90 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923B5220CC49D200F48E90 /* News.swift */; };
+		9E923B5520CC5EBB00F48E90 /* newsDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E923B5420CC5EBB00F48E90 /* newsDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9E923B3F20CC454400F48E90 /* ilGiornaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ilGiornaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E923B4320CC454400F48E90 /* ilGiornaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ilGiornaleUITests.swift; sourceTree = "<group>"; };
 		9E923B4520CC454400F48E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E923B5220CC49D200F48E90 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		9E923B5420CC5EBB00F48E90 /* newsDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		9E923B2220CC454200F48E90 /* ilGiornale */ = {
 			isa = PBXGroup;
 			children = (
+				9E923B5120CC493900F48E90 /* Model */,
 				9E923B2320CC454200F48E90 /* AppDelegate.swift */,
 				9E923B2520CC454200F48E90 /* ViewController.swift */,
 				9E923B2720CC454200F48E90 /* Main.storyboard */,
 				9E923B2A20CC454300F48E90 /* Assets.xcassets */,
 				9E923B2C20CC454300F48E90 /* LaunchScreen.storyboard */,
 				9E923B2F20CC454400F48E90 /* Info.plist */,
+				9E923B5420CC5EBB00F48E90 /* newsDescription.swift */,
 			);
 			path = ilGiornale;
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				9E923B4520CC454400F48E90 /* Info.plist */,
 			);
 			path = ilGiornaleUITests;
+			sourceTree = "<group>";
+		};
+		9E923B5120CC493900F48E90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E923B5220CC49D200F48E90 /* News.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E923B2620CC454200F48E90 /* ViewController.swift in Sources */,
+				9E923B5520CC5EBB00F48E90 /* newsDescription.swift in Sources */,
 				9E923B2420CC454200F48E90 /* AppDelegate.swift in Sources */,
+				9E923B5320CC49D200F48E90 /* News.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
